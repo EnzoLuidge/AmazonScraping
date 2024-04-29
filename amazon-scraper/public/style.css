@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #007eb9;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-sizing: border-box; /* Includes padding in width */
+}
+
+button {
+    padding: 10px 20px;
+    background: #005f87;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #004d66;
+}
+
+#results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 300px;
+    border-radius: 8px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #007eb9;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}

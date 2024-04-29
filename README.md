@@ -1,4 +1,4 @@
-**Amazon Product Scraper**
+****Amazon Product Scraper****
 
 *Overview*
 This project is a simple web application that scrapes product data from Amazon based on user input keywords. It displays the product title, rating, number of reviews, and product image URL.

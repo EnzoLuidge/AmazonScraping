@@ -13,7 +13,7 @@ Before you begin, ensure you have the following installed:
 Follow these steps to set up the project on your local machine:
 
 _Clone the Repository_
-1. git clone https://github.com/EnzoLuidge/amazon-scraper.git
+1. git clone https://github.com/EnzoLuidge/AmazonScraping.git
 2. cd amazon-scraper
 
 _Install Dependencies_
